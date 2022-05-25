@@ -1,0 +1,117 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Aaa","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello there, what can I do for you?", "Hi, how can i help?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "later"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["who are you?", "how do you hepl?"],
+         "responses": ["I can guide you through your application ,answer questions about the application process, connect you to admission officers ", " I Offer information about exciting degree, diploma and certificate programs we have here at Univen!"],
+         "context": [""]
+        },
+        {"tag": "application",
+         "patterns": [ "When to apply?", "Application closing date", "Application documents", "Application opening" ],
+         "responses": ["Please note that we are not taking paper applications currently! Online applications only at www.univen.ac.za, before 30 September"," Applications open annually between March and 30 september","Bsc. Computer Science/Comuter Science and Mathematics, why not check out our prospectus here :[https://www.univen.ac.za/wp-content/uploads/2021/07/Univen_2022_Undergraduate_Student_Brochure.pdf] for all our study programs."],
+         "context": [""]
+        },
+		{"tag": "computer science",
+         "patterns": [ "comp sci", "cs", "Bsc Computer science", "computer science" , " IT" ," programming" , "Software engineering", "software developer"],
+         "responses": ["Univen offers a Bsc. Computer Science and a Bsc. Computer Science and Mathematics"," For a Bsc. ,you can choose to major in Computer Science or Computer Science and Mathematics","Why not check out our prospectus here :[https://www.univen.ac.za/wp-content/uploads/2021/07/Univen_2022_Undergraduate_Student_Brochure.pdf] for all our study programs."],
+         "context": [""]
+        },
+		{"tag": "application fee",
+         "patterns": [ "application fee", "adminstrative fee","fee" ],
+         "responses": ["Before applying, you are required to pay an application fee of R 100, at ABSA. Account Number : 1000 000 589. Use your ID No as reference."],
+         "context": [""]
+        },
+		{"tag": "extracurricular",
+         "patterns": [ "football", "soccer","netball", "basketball", "tennis", "volleyball","sports","Team", "social club" ],
+         "responses": ["We have different social clubs and sports teams you can join", "You can become a member of our many sports teams like the football, netball, volleyball teams and many other clubs"],
+         "context": [""]
+        },
+        {"tag": "faculties",
+         "patterns": ["schools", "school", "which faculty", "what faculty", "faculty" ],
+         "responses": ["Univen has several fuculties:Faculty of Management, Commerce and Law, Faculty of Science, Engineering and Agriculture, Faculty of Humanities, Social Science and Education, and the  Faculty of Health Sciences "],
+         "context": [""]
+        },
+        {"tag": "Faculty of Management, Commerce and Law",
+         "patterns": ["law", "LLB", "Law", "judge", "Attorney" , "Law degree"],
+         "responses": ["School of law : [https://www.univen.ac.za/faculties/management-commerce-and-law/]", "The school of law offers various degrees in Mercantile and Private Law, Public law and Criminal Justice ","To learn more about the degrees in the school of law, take a look [https://www.univen.ac.za/faculties/management-commerce-and-law/] "],
+         "context": [""]
+        },
+        {"tag": "Faculty of Science, Engineering and Agriculture",
+         "patterns": ["Bsc Agric","Agricultural science","Engineering","Bachelor of science agric","Agriculture","Agricultural"],
+         "responses": ["Bachelor of Science in Agriculture (various specializations), Bachelor of Science in Forestry, Bachelor of Science in Food Science and Technology,Bachelor of Science in Agricultural and Biosystems Engineering, Bachelor of Agriculture Honours","Take a look at our School of agriculture calender here : [https://www.univen.ac.za/wp-content/uploads/2021/06/2021-School-of-Agriculture-Calendar.pdf]"],
+         "context": [""]
+        },
+		
+        {"tag": "Faculty of Science, Engineering and Agric",
+         "patterns": ["Bsc","BS","Engineering","Bachelor of science","Science","Mathematics", "Zoology", "Physics" ,"chemisty", "Biochemistry", "microbiology"],
+         "responses": ["The school of mathematics offers a Diploma in Fresh Water Technology and Bachelor of Science degrees, Extended Bachelor of Science degree in different specialisations, more here : [https://www.univen.ac.za/wp-content/uploads/2021/06/2021-Univen-Mathematical-and-Natural-Sciences-Calendar.pdf] ", " We offer Bsc. with different specialisations  such as Zoology, computer Science, Agriculture , Biokinetics, nutrition and many others that can be found on the brochure here : [https://www.univen.ac.za/wp-content/uploads/2021/07/Univen_2022_Undergraduate_Student_Brochure.pdf] ","  Candidates wishing to enrol for a BSc degree must have obtained a minimum admission requirement in a National Senior Certificate (NSC) with an achievement rating of 4 (adequate achievement, 50-59%) or better in each of the following four recognised 20-credit NSC subjects: English,Mathematics, Physical Science and Life Sciences "," Check out the school calender here : [https://www.univen.ac.za/wp-content/uploads/2021/06/2021-Univen-Mathematical-and-Natural-Sciences-Calendar.pdf] ", " We offer degrees spread across different departments Biochemistry, Botany, Chemistry, Computer Science and Information,Mathematics and Applied Mathematics, Microbiology, Physics, Statistics, Zoology"],
+         "context": [""]
+        },
+		
+        {"tag": "residence",
+         "patterns": ["res","room","residence","hostel","housing","rooms" ,"residential"],
+         "responses": [" Univen offers a variety of  student residences that are fully furnished with access to Wi-Fi, and you can apply here [https://www.univen.ac.za/housing-and-accommodation/]", "Univen offers off-campus residences and campus-based residences that you can apply for here : [https://www.univen.ac.za/housing-and-accommodation/] ", "Please note that the application form for residence is separate from the admission form and it is available on here :[https://www.univen.ac.za/housing-and-accommodation/]"],
+         "context": [""]
+        },
+		{"tag": "requirements",
+         "patterns": ["documents","application requirements","application documents","requirements", "supporting documents"],
+         "responses": ["Please make sure you have copies of  your final grade 11 results, you ID/passport, proof of payment from ABSA, your academic record if you have been previously registered at a tertiary institution and a testimonial from your previous institution. All in PDF ", " Supporting documents include : an application fee -; non-refundable , Copy of page 1 of Identity Document/Passport, a testimonial of good conduct, a Matriculation/NSC/NCV certificate or, if not yet available, some form of proof that the prospective student complies with the necessary requirements for the degree for which s/he desire to register for or a statement of last school symbol achieved."],
+         "context": [""]
+        },
+		{"tag": "Application",
+         "patterns": ["Apply","application","applications","admission"],
+         "responses": ["All our applications are online, you can apply between March and September 30th here : [https://univenien.univen.ac.za/pls/prodi04/gen.gw1pkg.gw1view] ", "Please ensure that all your supporting documents are in pdf format before you apply here : [https://univenien.univen.ac.za/pls/prodi04/gen.gw1pkg.gw1view]"],
+         "context": [""]
+        },
+		{"tag": "degree",
+         "patterns": ["degree requirements","degree","how to qualify for a degree","degree qualification"],
+         "responses": [" The minimum admission requirement is a National Senior Certificate (NSC) as certified by the Council for General and Further Education and Training (Umalusi) with an achievement rating of 4 (adequate achievement, 50-59%) or better in four subjects chosen from the recognised 20-credit NSC subjects. In addition, applicants must have a minimum point score of 26. A grade 12 certificate with a bachelor or matric exemption is required if grade 12 has been achieved."],
+         "context": [""]
+        },
+		{"tag": "diploma",
+         "patterns": ["diploma requirements","diploma","how to qualify for a diploma","diploma qualification"],
+         "responses": ["The minimum admission requirement is a National Senior Certificate (NSC) as certified by Umalusi with an achievement rating of 3 (moderate achievement, 40-49%) or better in four recognised NSC 20-credit subjects."],
+         "context": [""]
+        },
+		{"tag": "certificate",
+         "patterns": ["certificate requirements","certificate","how to qualify for a certificate","certificate qualification"],
+         "responses": [" The minimum admission requirement is a National Senior Certificate (NSC) as certified by Umalusi.To be considered for admission to specific programmes, applicants are required to have the appropriate combinations of recognised National Senior Certificate subjects as well as certain levels of achievement in these subjects.  "],
+         "context": [""]
+        },
+		{"tag": "Library",
+         "patterns": ["library","study area"],
+         "responses": [" Univen has prestigious library facilities where you can access thousands of books and academic articles, our internet equipped computers for all your assignments needs or just to study! You can find out more about the library on our website. ","For more on our library you can visit the library section on the univen's website"],
+         "context": [""]
+        },
+        {"tag": "Degree_Search",
+         "patterns": ["Find me a degree", "degree", "List of degrees in Education", "Show degree", "Search degree" ],
+         "responses": ["Please provide degree name"],
+         "context": ["search_degree_by_name"]
+        },
+        {"tag": "search_degree_by_name",
+         "patterns": [],
+         "responses": ["Loading degree details"],
+         "context": [""]
+        }
+        
+        ]
+}
+
